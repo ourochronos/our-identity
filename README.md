@@ -1,6 +1,6 @@
 # oro-identity
 
-Multi-DID identity management with Ed25519 cryptography for the orobobos ecosystem
+Multi-DID identity management with Ed25519 cryptography for the ourochronos ecosystem
 
 ## Overview
 
