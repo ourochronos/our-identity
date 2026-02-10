@@ -5,13 +5,13 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from oro_identity.cli import (
+from our_identity.cli import (
     _load_manager,
     _save_store,
     cmd_identity,
     register_identity_commands,
 )
-from oro_identity.did_manager import DIDManager
+from our_identity.did_manager import DIDManager
 
 # ---------------------------------------------------------------------------
 # Helpers

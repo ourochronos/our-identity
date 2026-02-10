@@ -6,7 +6,7 @@ import uuid
 
 import pytest
 
-from oro_identity.multi_did import (
+from our_identity.multi_did import (
     DIDNode,
     DIDStatus,
     IdentityCluster,

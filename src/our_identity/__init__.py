@@ -1,4 +1,4 @@
-"""oro-identity — Multi-DID identity management with Ed25519 cryptography.
+"""our-identity — Multi-DID identity management with Ed25519 cryptography.
 
 Each node in the network has its own DID. A user may operate multiple
 nodes, grouped into an IdentityCluster. DIDs are linked via cryptographic
@@ -18,7 +18,7 @@ Security properties:
 
 __version__ = "0.1.0"
 
-from oro_identity.did_manager import (
+from our_identity.did_manager import (
     ClusterNotFoundError,
     DIDAlreadyExistsError,
     DIDError,
@@ -29,7 +29,7 @@ from oro_identity.did_manager import (
     InMemoryDIDStore,
     LinkProofInvalidError,
 )
-from oro_identity.multi_did import (
+from our_identity.multi_did import (
     DIDNode,
     DIDStatus,
     IdentityCluster,

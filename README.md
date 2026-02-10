@@ -1,4 +1,4 @@
-# oro-identity
+# our-identity
 
 Multi-DID identity management with Ed25519 cryptography for the ourochronos ecosystem
 
@@ -9,13 +9,13 @@ _Brief description of what this brick does and why it exists._
 ## Install
 
 ```bash
-pip install oro-identity
+pip install our-identity
 ```
 
 ## Usage
 
 ```python
-from oro_identity import ...
+from our_identity import ...
 ```
 
 ## API

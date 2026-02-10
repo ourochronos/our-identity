@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "oro-identity"
+name = "our-identity"
 version = "0.1.0"
 description = "Multi-DID identity management with Ed25519 cryptography for the ourochronos ecosystem"
 readme = "README.md"
@@ -35,7 +35,7 @@ dev = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/oro_identity"]
+packages = ["src/our_identity"]
 
 [tool.ruff]
 target-version = "py311"
@@ -46,7 +46,7 @@ src = ["src", "tests"]
 select = ["E", "F", "I", "N", "W", "UP", "B", "C4"]
 
 [tool.ruff.lint.isort]
-known-first-party = ["oro_identity"]
+known-first-party = ["our_identity"]
 
 [tool.mypy]
 python_version = "3.11"
@@ -66,7 +66,7 @@ markers = [
 
 [tool.coverage.run]
 branch = true
-source = ["src/oro_identity"]
+source = ["src/our_identity"]
 
 [tool.coverage.report]
 show_missing = true

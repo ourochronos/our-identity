@@ -1,4 +1,4 @@
-"""Multi-DID identity models for oro-identity.
+"""Multi-DID identity models for our-identity.
 
 Implements multi-DID per user (node = DID) identity management.
 

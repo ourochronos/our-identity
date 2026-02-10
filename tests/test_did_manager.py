@@ -13,7 +13,7 @@ from __future__ import annotations
 import pytest
 from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey
 
-from oro_identity.did_manager import (
+from our_identity.did_manager import (
     DIDAlreadyExistsError,
     DIDManager,
     DIDNotFoundError,
@@ -21,7 +21,7 @@ from oro_identity.did_manager import (
     InMemoryDIDStore,
     _did_from_public_key,
 )
-from oro_identity.multi_did import DIDStatus, LinkProof
+from our_identity.multi_did import DIDStatus, LinkProof
 
 # ---------------------------------------------------------------------------
 # Fixtures
@@ -317,7 +317,7 @@ class TestListNodes:
 
 class TestInMemoryDIDStore:
     def test_basic_crud(self):
-        from oro_identity.multi_did import DIDNode, IdentityCluster, LinkProof
+        from our_identity.multi_did import DIDNode, IdentityCluster, LinkProof
 
         store = InMemoryDIDStore()
 

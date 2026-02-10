@@ -1,4 +1,4 @@
-"""Shared test fixtures for oro-identity."""
+"""Shared test fixtures for our-identity."""
 
 import pytest
 

@@ -1,10 +1,10 @@
-"""Public interface for oro-identity.
+"""Public interface for our-identity.
 
 Re-exports the primary public API types that form this brick's contract.
-Consumers should import from ``oro_identity`` or ``oro_identity.interface``.
+Consumers should import from ``our_identity`` or ``our_identity.interface``.
 """
 
-from oro_identity.did_manager import (
+from our_identity.did_manager import (
     ClusterNotFoundError,
     DIDAlreadyExistsError,
     DIDError,
@@ -15,7 +15,7 @@ from oro_identity.did_manager import (
     InMemoryDIDStore,
     LinkProofInvalidError,
 )
-from oro_identity.multi_did import (
+from our_identity.multi_did import (
     DIDNode,
     DIDStatus,
     IdentityCluster,
